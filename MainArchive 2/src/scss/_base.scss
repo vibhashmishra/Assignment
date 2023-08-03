@@ -1,0 +1,98 @@
+body {
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    background: #ffffff;
+  }
+  
+  @font-face {
+    font-family: "Clash Display";
+    src: url("./font/ClashDisplay-Extralight.woff2") format("woff2"),
+      url("./font/ClashDisplay-Extralight.woff") format("woff"),
+      url("./font/ClashDisplay-Extralight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Clash Display";
+    src: url("./font/ClashDisplay-Semibold.woff2") format("woff2"),
+      url("./font/ClashDisplay-Semibold.woff") format("woff"),
+      url("./font/ClashDisplay-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Clash Display";
+    src: url("./font/ClashDisplay-Medium.woff2") format("woff2"),
+      url("./font/ClashDisplay-Medium.woff") format("woff"),
+      url("./font/ClashDisplay-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Clash Display";
+    src: url("./font/ClashDisplay-Bold.woff2") format("woff2"),
+      url("./font/ClashDisplay-Bold.woff") format("woff"),
+      url("./font/ClashDisplay-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Clash Display";
+    src: url("./font/ClashDisplay-Regular.woff2") format("woff2"),
+      url("./font/ClashDisplay-Regular.woff") format("woff"),
+      url("./font/ClashDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Clash Display";
+    src: url("./font/ClashDisplay-Light.woff2") format("woff2"),
+      url("./font/ClashDisplay-Light.woff") format("woff"),
+      url("./font/ClashDisplay-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  .displayCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .displayStart {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .displayEnd {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .displaySpacebetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .displayCenterColumn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
